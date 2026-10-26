@@ -14,7 +14,10 @@ export default function Navbar() {
 
         <div className="space-x-6">
           <Link to="/">Home</Link>
+          <Link to="/question-bank">Question Bank</Link>
           <Link to="/mock-tests">Mock Tests</Link>
+          <Link to="/current-affairs">Current Affairs</Link>
+          <Link to="/syllabus">Syllabus</Link>
           <Link to="/about">About</Link>
         </div>
 
